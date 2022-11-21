@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>TNHB</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <script src="./2-seat-reserve.js"></script>
+    <script src="./2-sear-reserve1.js"></script>
+    <script src="./2-seat-reserve2.js"></script>
+    <link rel="stylesheet" href="./3-seat-reserve.css">
+    <link rel="stylesheet" href="./3-seat-reserve1.css">
+    <link rel="stylesheet" href="./3-seat-reserve2.css">
+
+
+
+	<!-- CSS -->
+
+	<link rel="stylesheet" type="text/css" href="vendors/styles/icon-font.min.css"/>
+	<link rel="stylesheet" type="text/css" href="src/plugins/jquery-steps/jquery.steps.css"/>
+    <link rel="stylesheet" type="text/css" href="src/plugins/bootstrap-tagsinput/bootstrap-tagsinput.css"/>
+
+</head>
+
+
+<body>
+
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center">
+
+
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <a href="index.html" class="logo me-auto"><img src="assets/img/tnhb_logo.png" alt="" class="img-fluid"></a>
+
+          <nav id="navbar" class="navbar order-last order-lg-0">
+            <ul>
+              <li><a  href="index.html">Home</a></li>
+              <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                    <li><a href="about.html" >About Us</a></li>
+                    <li><a href="achievements.html">Achievements</a></li>
+
+                    <li><a href="gallery.html">Gallery</a></li>
+
+
+                </ul>
+              </li>
+             <li class="dropdown"><a href="#"><span>For Sale</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                    <li><a href="forsale.html">Flats</a></li>
+                    <li class="dropdown"><a href="#"><span>Plots</span> <i class="bi bi-chevron-right"></i></a>
+                      <ul>
+                        <li><a href="forsaleother.html">Residential</a></li>
+                        <li><a href="forsaleother.html">Commercial</a></li>
+                        <li><a href="forsaleother.html">Others</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="forsale.html">Commercial Space</a></li>
+                    <li><a href="forsale.html">Commercial/Office Space</a></li>
+
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>Rentals</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                    <li><a href="#" >Community Hall</a></li>
+                    <li><a href="#">TNGHRS</a></li>
+
+                    <li><a href="#">Board Rent - Online Payment</a></li>
+
+
+                </ul>
+              </li>
+              <li><a href="#">Tenders</a></li>
+              <li><a href="#">Documents</a></li>
+              <li><a href="#">Auction</a></li>
+              <li><a href="enquiry.html">Enquiry</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav><!-- .navbar -->
+
+          <a href="#" class="get-started-btn">Login</a>
+
+        </div>
+
+      </header><!-- End Header -->
+
+
+  <main id="main" class="main">
+
+    <!-- ======= Intro Single ======= -->
+    <section class="intro-single">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-8">
+                    <div class="title-single-box">
+                        <h1 class="title-single">Booking</h1>
+                        <span class="color-text-a"></span>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-4">
+                    <nav aria-label="breadcrumb" class="breadcrumb-box d-flex justify-content-lg-end">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item">
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li class="breadcrumb-item active" aria-current="page">
+                                Booking
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="section">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Property Booking</h5>
+              <div class="mobile-menu-overlay"></div>
+              <div class="wizard-content">
+                    <form class="tab-wizard wizard-circle wizard">
+                      <h5>Block</h5>
+                      <section>
+                        <div class="container" style="justify-content: center;">
+                            <div class="row">
+                            <div class="col d-flex justify-content-center">
+                            <div id="layout"></div></div>
+                            <!-- (B) LEGEND -->
+                            <!-- <div id="legend">
+                              <div class="seat"></div> <div class="txt">Available</div>
+                              <div class="seat taken"></div> <div class="txt">Booked</div>
+                              <div class="seat selected"></div> <div class="txt">Your Chosen</div>
+                            </div> -->
+                        </div></div>
+                    </section>
+
+                    <h5>Floor</h5>
+                      <section>
+                        <div class="container" style="justify-content: center;">
+                            <div class="row">
+                            <div class="col d-flex justify-content-center">
+                            <div id="layout1"></div></div></div>
+                        </div>
+                      </section>
+
+                      <!-- Step 3 -->
+                      <h5>Flat</h5>
+                      <section>
+                        <div class="container" style="justify-content: center;">
+                            <div class="row">
+                            <div class="col d-flex justify-content-center">
+                            <div id="layout2"></div></div></div>
+                        </div>
+
+                      </section>
+
+
+                    </form>
+
+                         <!-- success Popup html Start -->
+                <div
+                class="modal fade"
+                id="success-modal"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="exampleModalCenterTitle"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-body text-center font-18">
+                      <h3 class="mb-20">Choose your option!</h3>
+                      </div>
+                      <br>
+                      <br>
+                    <div class="modal-footer justify-content-center">
+                        <a href="./visit.html"> <button class="dropbtn"> Property Visit Request
+                        </button></a>
+                        <a href="./payment.html"> <button class="dropbtn"> Buy now
+                        </button></a>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- success Popup html End -->
+
+
+                </div>
+
+
+
+
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+
+
+  </main><!-- End #main -->
+
+      <!-- End #main -->
+<!-- ======= Footer ======= -->
+<section class="section-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-4">
+                <div class="widget-a">
+                    <div class="w-header-a">
+                        <img class="footer-logo" src="assets/img/tnhb_logo.png" height="70">
+                    </div>
+
+                    <br>
+                    <div class="w-body-a">
+                        <p class="w-text-a color-text-a">
+                            Head Office CMDA Complex,<br> E&C Market Road, Koyambedu, <br>Chennai - 600 107
+                        </p>
+                    </div>
+
+                    <div class="w-footer-a">
+                        <ul class="list-unstyled">
+                            <li class="color-a">
+                                <span class="color-text-a">Phone .</span> 24794201, 02, 03, 04, 05, 06 (044)
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 section-md-t3">
+                <div class="widget-a">
+                    <div class="w-header-a">
+                        <h3 class="w-title-a text-brand">Useful links</h3>
+                    </div>
+
+                    <div class="w-body-a">
+                        <div class="w-body-a">
+                            <ul class="list-unstyled">
+                                <li class="item-list-a">
+                                    <i class="bi bi-chevron-right"></i> <a href="#"> Home </a>
+                                </li>
+                                <li class="item-list-a">
+                                    <i class="bi bi-chevron-right"></i> <a href="#">For sale</a>
+                                </li>
+                                <li class="item-list-a">
+                                    <i class="bi bi-chevron-right"></i> <a href="#">Tender</a>
+                                </li>
+                                <li class="item-list-a">
+                                    <i class="bi bi-chevron-right"></i> <a href="#">Rentals</a>
+                                </li>
+                                <li class="item-list-a">
+                                    <i class="bi bi-chevron-right"></i> <a href="#">Organization</a>
+                                </li>
+                                <li class="item-list-a">
+                                    <i class="bi bi-chevron-right"></i> <a href="#">RTI</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 section-md-t3">
+                <div class="widget-a">
+                    <div class="w-header-a">
+                        <h3 class="w-title-a text-brand"> About TNHB</h3>
+
+                    </div>
+                    <div class="w-body-a">
+                        <ul class="list-unstyled">
+                            <li class="item-list-a">
+                                <i class="bi bi-chevron-right"></i> <a href="#">organisation chart</a>
+                            </li>
+                            <li class="item-list-a">
+                                <i class="bi bi-chevron-right"></i> <a href="#">Board Members</a>
+                            </li>
+                            <li class="item-list-a">
+                                <i class="bi bi-chevron-right"></i> <a href="#"> FAQ</a>
+                            </li>
+                            <li class="item-list-a">
+                                <i class="bi bi-chevron-right"></i> <a href="#">Disclaimer</a>
+                            </li>
+                            <li class="item-list-a">
+                                <i class="bi bi-chevron-right"></i> <a href="#"> Policies</a>
+                            </li>
+                            <li class="item-list-a">
+                                <i class="bi bi-chevron-right"></i> <a href="#"> Gallery</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="nav-footer">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a href="#">Home</a>
+                        </li>
+
+
+                        <li class="list-inline-item">
+                            <a href="#">About</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">  For Sale</a>
+                        </li>
+
+                        <li class="list-inline-item">
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="copyright-footer">
+                    <p class="copyright color-text-a">
+                        &copy; Copyright
+                        <span class="color-a">Bocxy</span> All Rights Reserved.
+                    </p>
+                </div>
+                <div class="credits">
+
+                    Designed by <a href="/">Bocxy</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End  Footer -->
+
+
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+     <!-- Vendor JS Files -->
+     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+     <script src="assets/vendor/php-email-form/validate.js"></script>
+
+     <!-- Template Main JS File -->
+     <script src="assets/js/main.js"></script>
+
+
+
+  <!-- Vendor JS Files -->
+
+  <script src="vendors/scripts/core.js"></script>
+		<script src="vendors/scripts/script.min.js"></script>
+		<script src="vendors/scripts/process.js"></script>
+		<script src="vendors/scripts/layout-settings.js"></script>
+		<script src="src/plugins/jquery-steps/jquery.steps.js"></script>
+		<script src="vendors/scripts/steps-setting.js"></script>
+
+    <script src="vendors/scripts/core.js"></script>
+		<script src="vendors/scripts/script.min.js"></script>
+		<script src="vendors/scripts/process.js"></script>
+		<script src="vendors/scripts/layout-settings.js"></script>
+		<!-- switchery js -->
+		<script src="src/plugins/switchery/switchery.min.js"></script>
+		<!-- bootstrap-tagsinput js -->
+		<script src="src/plugins/bootstrap-tagsinput/bootstrap-tagsinput.js"></script>
+		<!-- bootstrap-touchspin js -->
+		<script src="src/plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.js"></script>
+		<script src="vendors/scripts/advanced-components.js"></script>
+		<!-- Google Tag Manager (noscript) -->
+		<noscript
+			><iframe
+				src="https://www.googletagmanager.com/ns.html?id=GTM-NXZMQSS"
+				height="0"
+				width="0"
+				style="display: none; visibility: hidden"
+			></iframe
+		></noscript>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <noscript
+			><iframe
+				src="https://www.googletagmanager.com/ns.html?id=GTM-NXZMQSS"
+				height="0"
+				width="0"
+				style="display: none; visibility: hidden"
+			></iframe
+		></noscript>
+
+
+</body>
+
+</html>
